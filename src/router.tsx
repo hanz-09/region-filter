@@ -1,6 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import RegionPage from "./pages/RegionPage.tsx";
-import { regionLoader } from "./pages/RegionPage.loader";
+import RegionPage, { regionLoader } from "./pages/RegionPage.tsx";
 
 export const router = createBrowserRouter([
   {
