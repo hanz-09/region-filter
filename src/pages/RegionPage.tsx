@@ -60,7 +60,7 @@ export default function RegionPage() {
 
   return (
     <div className="min-h-screen bg-slate-100 text-slate-900 lg:flex">
-      <aside className="w-full border-b border-slate-300 bg-slate-100 px-6 py-8 lg:w-85 lg:border-b-0 lg:border-r lg:px-8 lg:py-9">
+      <aside className="w-full border-b border-slate-300 bg-slate-100 px-6 py-8 lg:w-[340px] lg:border-b-0 lg:border-r lg:px-8 lg:py-9">
         <div className="mb-10 flex items-center gap-3">
           <div className="grid h-11 w-11 place-items-center rounded-2xl bg-blue-100 text-sm font-semibold text-blue-500">
             FA
@@ -170,7 +170,7 @@ export default function RegionPage() {
           <button
             type="button"
             onClick={handleReset}
-            className="mt-3 h-15.5 w-full rounded-2xl border-2 border-blue-600 bg-transparent text-base font-extrabold uppercase tracking-[0.13em] text-slate-700 transition hover:bg-slate-200"
+            className="mt-3 h-[62px] w-full rounded-2xl border-2 border-blue-600 bg-transparent text-base font-extrabold uppercase tracking-[0.13em] text-slate-700 transition hover:bg-slate-200"
           >
             Reset
           </button>
@@ -178,7 +178,7 @@ export default function RegionPage() {
       </aside>
 
       <main className="flex-1">
-        <nav className="flex min-h-21.5 flex-wrap items-center gap-y-2 border-b border-slate-300 px-6 py-5 text-[15px] font-bold uppercase tracking-[0.13em] text-slate-400 lg:px-12 lg:py-0">
+        <nav className="breadcrumb flex min-h-[86px] flex-wrap items-center gap-y-2 border-b border-slate-300 px-6 py-5 text-[15px] font-bold uppercase tracking-[0.13em] text-slate-400 lg:px-12 lg:py-0">
           <span>Indonesia</span>
           {selectedProvince && (
             <>
